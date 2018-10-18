@@ -10,7 +10,7 @@
 
 - name: Add Docker GPG key.
   rpm_key:
-    key: https://download.docker.com/linux/centos/gpg
+    key: https://mirrors.aliyun.com/docker-ce/linux/centos/gpg
     state: present
 
 - name: Add Docker repository.
